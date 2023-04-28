@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #5a5278;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+#root {
+    /* display: flex; */
+}
+.sidebar {
+    background-color: black;
+    width: 280px;
+    height: 200px; 
+}
+.page {
+    background-color: #f1f1f1;
+    width: calc(100% - 280px); 
+    
+}
+.page #page__header {
+    height: 77px;
+    background-color: rgb(171, 190, 117);
+}
+.page #page__body{
+    
+}
+/* PAGE BODY */
+/* #page__body .list_group .media{
+    
+} */
+.list_group{
+    background-color: white;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.list_group .list_group_item{
+    list-style-type: none;
+}
+.list_group .media .media_body{
+    margin-left: 20px;
+}
+.list_group .media .media_body h5,
+.list_group .media .media_body p{
+    margin-bottom: 0;
+}
+.list_group .media .media_body h5{
+    color: #2C2945;
+    font-weight: 600;
+}
+.list_group .media .media_body p{
+    color: #6C757C;
+}
+.list_group .item1{
+    padding: 20px;
+    border-top: none;
+}
+
+.list_group .list_group_item{
+    padding: 10px 20px;
+    border-top: 1px solid rgb(231, 229, 229);
+    color: #2C2945;
+    font-size: 16px;
+}
+.list_group .list_group_item .text_muted,
+.list_group .list_group_item .text_muted2{
+    margin-bottom: 0;
+}
+.list_group .list_group_item .text_muted{
+    color: #6C757D;
+    font-size: 14px;
+}
+.list_group .list_group_item .progress{
+    height: 5px;
+    background-color: rgb(209, 209, 209);
+}
+.list_group .list_group_item .progress_bar{
+    background-color: rgb(233, 108, 129);
+    width: 70%;
+}
+.list_group .item2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* card right  */
+/*  card 1 */
+.card{
+    font-family: "Montserrat",sans-serif;
+
+
+}
+.card .card_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px ;
+    align-items: center;
+    position: relative;
+
+}
+.card .card_header .card-title{
+    font-size: 25px;
+}
+.card .card_header .card-options{
+    display: flex;
+    align-items: center;
+}
+.card_header .card-options .delete{
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgb(168, 167, 167);
+}
+.card_header .card-options .item-option{
+}
+.card_header .card-options .item-option {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card_header .card-options .item-option .dropdown-menu{
+    position: absolute;
+    display: none;
+    width: 250px;
+    left: 360px;
+}
+
+.card-options .item-option .dropdown-menu .item{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(66, 65, 65);
+}
+.card-options .item-option .dropdown-menu .item:hover{
+    background-color: rgb(209, 209, 209);
+    padding: 9px 15px;
+    transition: ease-in-out 0.5s;
+
+}
+/* card1 card-body */
+.card .card_body{
+    padding:0 20px 20px 20px;
+
+}
+.card .card_body .height{
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card .card_body [type="date"]{
+    width: 276px;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+}
+.card .card_body .form-group select{
+    font-size: 16px;
+}
+.card .card_body .btn-primary{
+
+    background-color: #5a5278;
+    border: none;
+}
+
+.card .card_body .btn-primary:hover{
+    background-color: #007bff;
+
+}
+.card .card_body .btn-default {
+    border: 1px solid rgb(218, 217, 217);
+    margin-left: 10px;
+}
+
+/* card2 */
+.card .card_body .height2{
+    padding-top: 0;
+}
+.card .card_body .height2 h6{
+    font-weight: 600;
+    font-size: 18px;
+}
+.card .card_body .form-group .form-control::placeholder{
+    font-size: 14px;
+    color: rgb(216, 213, 213);
+}
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+}
+/* @media only screen and (max-width: 1199px) {
+    
+} */

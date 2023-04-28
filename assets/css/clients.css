@@ -1,0 +1,76 @@
+button#search{
+    background-color: #5a5278;
+    color: white;
+}
+div.Clients{
+    background-color: #e6e6e6;
+}
+div.form-of-clients{
+    width: 100%;
+    background-color: #c7c7c7;
+    padding: 10px;
+    border-radius: 10px;
+}
+div#ClientName{
+    text-align: right;
+}
+form.form-of-clients input {
+    border-radius: 0.25rem;
+    border-width: 0px;
+    padding-left: 5px;
+}
+button#search{
+    border-radius: 0.25rem;
+    border-color: #5a5278;   
+}
+.mainOfClients img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.mainOfClients{
+    width: 100%;
+    text-align: center;
+}
+.person1 button{
+    border-width: 0px;
+    border-radius: 5px;
+    border-color:#e8e9e9 ;
+}
+.number1{
+    display: flex;
+    justify-content: center;
+}
+.number1>:first-child{
+    margin: 10px;
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+.number1>:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.person1{
+    padding: 10px;
+    position: relative;
+}
+.person1 button{
+    border-color: #e6e6e6;
+    padding: 5px;
+}
+.person1>div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.person1 h6 , .icon2 , .number1 {
+    margin: 10px;
+}
+.ribbonBox{
+    background-color: #ffcc16;
+    color: #7c2b2b;
+    position: absolute;
+    left: 10px;
+    width: 44px;
+}

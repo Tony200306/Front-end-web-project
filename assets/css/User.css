@@ -1,0 +1,116 @@
+
+/*nav*/
+.nav-item, .nav-link {  
+    min-width: 2rem;  
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.page-header-tab .nav-link.active, .page-header-tab .nav-link:hover {
+    border-bottom: 0!important;
+    border-top: 1px solid!important;
+    border-radius: 0!important;
+}
+/**/
+
+/*card*/
+.card-header {
+    padding: 20px 20px 10px;
+    border: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+}
+.card-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 0.75rem;
+}
+.card-options {
+    color: #9aa0ac;
+    margin-left: auto;
+    display: flex;
+    order: 100;
+    align-self: center;
+}
+/**/
+
+/*button*/
+.btn.btn-default{
+    background: #5a5278;
+    color: #fff;
+    border-color: #5a5278;
+    padding: 4px 18px;
+}
+/**/
+
+/*tag*/
+.tag {
+    border-radius: 3px;
+    font-size: .75rem;   
+    font-weight: 400;    
+    padding: 0 0.5rem;
+    line-height: 2em;
+    display: inline-flex;
+    cursor: default;  
+    user-select: none;
+}
+.tag-danger {
+    background: #e8769f;
+    color: #fff;
+}
+.tag-info {
+    background: #5a5278;
+    color: #fff;
+}
+.tag-default {
+    background-color: #d1d3d4;
+    color: #6e7687;
+}
+.tag-success {
+    background: #cedd7a;
+    color: #fff;
+}
+/**/
+
+/*avatar*/
+.avatar {
+    color: #4d5052;
+    font-weight: 600;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: #808488 no-repeat 50%/cover;
+    position: relative;
+    vertical-align: bottom;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: .875rem;
+    user-select: none;
+}
+.avatar-blue {
+    background-color: #c8d9f1;
+    color: #2185d0;
+}
+.avatar-green {
+    background-color: #cfeab3;
+    color: #21ba45;
+}
+.avatar-pink{
+    background-color: rgba(232,118,159,.1);
+    color: #e8769f;
+}
+button.btn-default i{
+    color: white;
+}
+.tab-content > .active{
+    display: block;
+}
+#hide{
+    display: none;
+}

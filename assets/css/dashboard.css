@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+element.style {
+}
+[class*="col-"] {
+    float: right;
+    padding: 15px;
+    width: 100%;
+}
+.page {
+    background-color: #f1f1f1;
+    width: calc(100% - 280px);
+    /* height: 600px; */
+}
+#root {
+    /* display: flex;
+    justify-content: flex-end; */
+}
+hr{
+    border-top: 0;
+}
+.sidebar {
+    background-color: black;
+    width: 280px;
+    height: 200px;
+}
+
+.page {
+    background-color: #f1f1f1;
+    width: calc(100% - 280px);
+    /* height: 600px; */
+}
+
+.page #page__top {
+    height: 77px;
+    background-color: rgb(171, 190, 117);
+}
+
+#page__body {}
+
+.section-body .container-fluid .text {
+    font-size: 12px;
+}
+
+.section-body .container-fluid .text a {
+    color: rgb(159, 158, 238);
+    text-decoration: none;
+    
+}
+
+.section-body .container-fluid .cards { 
+
+}
+.container-fluid .cards .card__body a{
+    text-align: none;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 20px 0;
+}
+
+
+.cards .card__body {
+    background-color: white;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cards .card__body a{
+    text-decoration: none;
+}
+.cards .card__body .icon {
+    font-size: 30px;
+}
+.cards .card__body .icon:hover{
+    font-size: 40px;
+    transition:   0.25s ease-in-out;
+}
+.cards .card__body span {
+    font-size: 18px;
+}
+
+.section-body .container-fluid .back-colo ,.card-header {
+    /* justify-content: space-between;
+    background-color: white; */
+}
+.title{
+    /* text-align: left; */
+    
+}
+
+.cards .card__body1 {
+    background-color: white;
+    /* height: 120px; */
+    border-radius: 10px;
+    padding: 20px;
+}
+.cards .card__body1 a{
+    text-decoration: none;
+    color: rgb(158, 158, 243);
+}
+.list-group{
+    margin-top: 30px;
+}
+.list-group .clearfix{
+    border-bottom: 1px solid gray;
+}
+
+.cards .card__body1 .text-center span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-center-1 table td{
+    padding: 10px 0;
+}
+.text-center-1 table tr:nth-child(2n){
+    background: rgb(235, 231, 231);
+}
+.text-center-1 table td .clearfix{
+    border-bottom: 1px solid gray;
+
+}
+.cards .card__body1 .row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.row-1 .card-option{
+    position: relative;
+}
+.row-1 .card-option .card-option-link{
+    color: #212529;
+    cursor: pointer;
+}
+.row-1 .card-option .card-option-menu{
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 150px;
+    right: 10px;
+}
+.row-1 .card-option .card-option-menu{
+    box-shadow: 0 0 5px 5px rgb(206, 205, 205);
+    
+}
+
+.row-1 .card-option .card-option-menu .item{
+    display: block;
+    padding: 5px 10px;
+    color: #212529;
+
+}
+.row-1 .card-option .card-option-menu .item:hover{
+    background-color: rgb(228, 228, 228);
+    padding: 0 10px;
+}
+table td .edit{
+    margin-bottom: 0;
+    /* text-align: justify; */
+}
+.table-2{
+    margin-top: 20px;
+}
+
+table .table-row{
+    border-bottom: 1px solid red;
+
+}
+table .table-row:last-child{
+    border: none;
+
+}
+table .table-row td{
+    padding: 3px 10px;
+    
+}
+
+table .table-row .textalign{
+    text-align: right;
+}
+table .table-row td i{
+    /* background-color: rgba(232,118,159,.1); */
+    color: rgb(243, 148, 164);
+    width: 30px;
+    border-radius: 50%;
+}
+table .table-row span{
+    font-size: 12px;
+}
+
+.height{
+    height: 655px;
+}
+.card__body1{
+    height: 100%;
+}
+.table-2{
+    height: 90%;
+}

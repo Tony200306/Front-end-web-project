@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="../assets/themify-icons/themify-icons.css">
+    <script src="https://kit.fontawesome.com/f7902e01a3.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <div id="login">
+        <div id="login__left">
+            <div class="card">
+                <div class="card__icon padd">
+                    <a class="card__icon--link" href="">
+                        <i class="fa-brands fa-drupal"></i>
+                    </a>
+                </div>
+                <div class="card__body ">
+                    <div class="card__body__title">Login to your account</div>
+                    <div class="form-group">
+
+                        <select name="" id="" class="custom-select">
+                            <option value="">HR Dashboard</option>
+                            <option value="">Project Dashboard</option>
+                            <option value="">Job Portal</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" onblur="checkEmail()" placeholder="Enter email">
+                        <p style="color: red;font-size: 12px; font-style: italic; " id="error-email"></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-label">
+                            Password
+                            <a class="forgot" href="">I forgot password</a>
+                        </label>
+                        <input type="password" name="" onblur="checkPass()" id="form-label" placeholder="Password">
+                        <p style="color: red;font-size: 12px; " id="error-password"></p>
+
+
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="" id="form-check" >
+                        <label for="form-check">Remember me</label>
+                        <!-- <p style="color: red;font-size: 12px;  font-style: italic; " id="check"></p> -->
+                    </div>
+                    <div class="form-footer">
+                        <button src="" type="button" class="btn" onclick="register()">
+                            <a class="btn-link" href="./HTML/dashboard.html">Click to login </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card__footer padd">
+                    Don't have account yet?
+                    <a class="sign_up" href="">Sign up</a>
+                </div>
+            </div>
+        </div>
+        <div id="login__right">
+            <div class="login__right__image">
+                <img src="./assets/imgs/stylish-office-table-desk-workspace-260nw-501125683.webp" alt="">
+            </div>
+            <div class="login__right__text">
+                <h4>Quality Code and Easy Customizability</h4>
+                <p>There are many variations of passages of Lorem Ipsum available.</p>
+            </div>
+        </div>
+        <div id="login__footer">
+            PuffinTheme
+        </div>
+
+    </div>
+
+    <script>
+        function checkEmail() {
+            let email = document.getElementById('email').value;
+            let error_email = document.getElementById('error-email');
+            let regex_email=/^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/;
+            if (email == '' || email == null) {
+                error_email.innerHTML = "* Vui lòng nhập Email!";
+            }
+            else if(!regex_email.test(email)){
+                error_email.innerHTML="Email không hơp lệ!";
+            }
+            else{
+                error_email.innerHTML= " ";
+                return email;
+            }
+        }
+
+        function  checkPass() {
+            let pass = document.getElementById('form-label').value;
+            let error_pass = document.getElementById('error-password');
+            let regex_pass=/\ /;
+            if (pass == '' || pass == null) {
+                error_pass.innerHTML = "* Vui lòng nhập Password!";
+            }
+            else if(regex_pass.test(pass)){
+                error_pass.innerHTML="Password chứa dấu cách!";
+            }
+            else if(pass.length<6){
+                error_pass.innerHTML="Password quá ngắn (tối thiểu 6-8 kí tự)!";
+            }
+            else{
+                error_pass.innerHTML= " ";
+                return pass;
+            }
+        }
+
+        function register(){
+            if(checkEmail()&& checkPass()){
+                alert("Đăng kí thành công!")
+            }
+            else{
+                alert("Vui lòng kiểm tra dữ liệu khi đăng ki!");
+            }
+        }
+
+        // function check_box(){
+        //     let check=document.getElementById('check');
+        //     let box=document.querySelector('.form-check');
+        //     if(!box.checked){
+        //         check.innerHTML="Vui lòng tick vào ô!";              
+        //     }            
+        //     else {
+        //         return true;
+        //     }
+            
+        // }
+        
+        
+    </script>
+    <!-- <script>
+        function validateform() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('form-label').value;
+
+            if (email == null || email == "") {
+                alert("Email can't be blank");
+                return false;
+            } else if (password.length < 6) {
+                alert("Password must be at least 6 characters long.");
+                return false;
+            }
+        } 
+    </script> -->
+</body>
+
+</html>

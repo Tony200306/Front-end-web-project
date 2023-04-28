@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #5a5278;
+}
+#root {
+    /* display: flex; */
+}
+.sidebar {
+    background-color: black;
+    width: 280px;
+    height: 200px; 
+}
+.page {
+    background-color: #f1f1f1;
+    width: calc(100% - 280px); 
+    
+}
+.page #page__header {
+    height: 77px;
+    background-color: rgb(171, 190, 117);
+}
+
+/* page body ->section-body (1) */
+.section-body .d-flex{
+    margin-top: 30px;
+    border-top: 1px solid rgb(214, 213, 213);
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex .nav .nav-item{
+    padding-right: 20px;
+}
+.d-flex .nav .nav-item .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #5a5278;
+
+}
+.d-flex .nav .nav-item:first-child .nav-link{
+    border-top: 1px solid black;
+
+}
+.d-flex .nav .nav-item:last-child .nav-link:hover{
+    border-top: 1px solid black;
+}
+/* button(ADD) */
+.d-flex .header-action .btn{
+    background-color: #5a5278;
+    color: white;
+}
+.d-flex .header-action .btn:hover{
+    background-color: rgb(97, 97, 252);
+}
+/* page body ->section-body (2) */
+.section-body .tab-content{
+    margin-top: 30px;
+}
+.section-body .tab-content .card-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.section-body .tab-content .card-header .card-title{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.tab-content .card-header .card-options .form-group{
+    display: flex;
+    margin-bottom: 0;
+}
+.tab-content .form-group .btn{
+    border: 1px solid #c4ced7;
+    margin-left: 5px;
+}
+.tab-content .card{
+    color: #2C2945;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.tab-content .card-body{
+    padding-bottom: 0;
+}
+.tab-content .card-body .table td{
+    vertical-align: middle;
+    /* căn giữa theo chiều dọc  */
+}
+.tab-content .card-body .table thead th{
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #2C2945;
+    border-top: none;
+
+}
+.tab-content .card-body .table tbody td{
+    color: #2C2945;
+
+}
+.tab-content .card-body .table tbody tr:nth-of-type(2n){
+    background-color: rgb(230, 230, 230);
+}
+.tab-content .card-body .table tbody button[title="edit"] i,
+.tab-content .card-body .table tbody button[title="delete"] i{
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+}
+/* @media only screen and (max-width: 1199px) {
+    
+} */

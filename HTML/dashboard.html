@@ -1,0 +1,2010 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <style>
+        @media (min-width: 1200px){
+            .col-xl-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 100%;
+        }
+}
+    a{
+        color: #5a5278;
+    }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" type="" href="../assets/css/User.css">
+    <link rel="stylesheet" href="../assets/css/setting.css">
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" href="../assets/css/dashboard_grid.css">
+    <link rel="stylesheet" href="../assets/css/clients.css">
+    <link rel="stylesheet" href="../assets/themify-icons/themify-icons.css">
+    <script src="https://kit.fontawesome.com/f7902e01a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+      <div class="hleft">
+        <div class="fixed-menu">
+          <a href="#" class="logoW"><i class="fa-brands fa-wordpress logo"></i></a>
+          <ul class="hleft-top">
+            <li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-calendar-days"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-id-card"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-comments"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-folder-open"></i></a>
+            </li>
+          </ul>
+          <ul class="hleft-bot">
+            <li class="setting">
+              <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user-tie"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <div class="hright ">
+          <h2 class="epicHR">Epic HR</h2>
+          <ul class="right-menu">
+            <li class="HRM">
+              <i class="fa-solid fa-briefcase"></i>
+              <h4 class="titleOfHRM" style="display: inline-block;">HRM</h4>
+              <ul class="childOfHRM">
+                <li class="Dashboard" style="background-color: #5a5278;">
+                  <i class="fa-solid fa-ellipsis" style="color: white;"></i>
+                  <p style="color: white;">Dashboard</p>
+                </li>
+                <li class="Users">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Users</p>
+                </li>
+                <li class="Department">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Department</p>
+                </li>
+                <li class="Employee">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Employee</p>
+                </li>
+                <li class="Activities">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Activities</p>
+                </li>
+                <li class="Holidays">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Holidays</p>
+                </li>
+                <li class="Events">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Events</p>
+                </li>
+                <li class="Payroll">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Payroll</p>
+                </li>
+                <li class="Accounts">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Accounts</p>
+                </li>
+              </ul>
+  
+            </li>
+            <li class="Project">
+              <i class="fa-solid fa-diagram-project"></i>
+              <h4 class="titleOfProject" style="display:inline-block;">Project</h4>
+              <ul class="childOfProject hide">
+                <li class="DashboardOfProject">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Dashboard</p>
+                </li>
+                <li >
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Project List</p>
+                </li>
+  
+                <li class="Clients">
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Clients</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Taskboard</p>
+                </li>
+              </ul>
+            </li>
+            <li class="Authentication">
+              <i class="fa-solid fa-right-to-bracket"></i>
+              <h4 class="titleOfAuthentication" style="display:inline-block;">Authentication</h4>
+              <ul class="childOfAuthentication hide">
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Login</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Register</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Forgot Password</p>
+                </li>
+              </ul>
+            </li>
+            <li class="JobPortal">
+              <i class="fa-solid fa-file-pen"></i>
+              <h4 class="titleOfJobPortal" style="display:inline-block;">JobPortal</h4>
+              <ul class="childOfJobPortal hide">
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Job Dashboard</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Positions</p>
+                </li>
+                <li>
+                  <i class="fa-solid fa-ellipsis"></i>
+                  <p>Applicant</p>
+                </li>
+            </li>
+          </ul>
+        </div>
+        <div class="change">
+          <div class="content">
+            <div class="headerOfcontent">
+              <div class="left-header">
+                <h2 class="titleOfHeader">
+                  Dashboard
+                </h2>
+                <div class="selectTime">
+                  <select class="form-select" aria-label="Default select example">
+                    <option value="1" selected>Year</option>
+                    <option value="2">Month</option>
+                    <option value="3">Week</option>
+                  </select>
+                </div>
+                <div class="search-bar">
+                  <input class="search" type="text" placeholder="   Search">
+                </div>
+              </div>
+              <div class="right-header">
+                <ul class="DropDown">
+                  <li class="languages-options">
+                    <a href="#" class="Country-dropDownNode">
+                      Language
+                      <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div class="childOfOptions menuLanguages hide">
+                      <div class="VietNam">
+                        <img class="flag" src="../assets/imgs/Flag-Vietnam.webp">
+                        VietNam
+                      </div>
+                      <div class="borderOfLanguages" style="margin: 10px; border-bottom:solid 1px;""></div>
+                      <div class="USA">
+                        <img class="flag" src="../assets/imgs/Flag-United-States-of-America.webp">
+                        USA
+                      </div>
+                      <div class="France">
+                        <img class="flag" src="../assets/imgs/Flag_of_France.svg.webp">
+                        France
+                      </div>
+                      <div class="Spain">
+                        <img class="flag" src="../assets/imgs/Bandera_de_España.svg.webp">
+                        Spain
+                      </div>
+                    </div>
+                  </li>
+                  <li class="reports-options">
+                    <a href="#" class="Tool-Options">
+                      Reports
+                      <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div class="childOfOptions menuReports hide">
+                      <div>
+                        <i class="fa-regular fa-file-word"></i>
+                        Words
+                      </div>
+                      <div>
+                        <i class="fa-regular fa-file-excel"></i>
+                        Excel
+                      </div>
+                      <div>
+                        <i class="fa-regular fa-file-pdf"></i>
+                        PDF
+                      </div>
+                    </div>
+  
+                  </li>
+                </ul>
+                <a href="#" class="messages">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span><i class="fa-solid fa-circle"></i></span>
+                </a>
+                <a href="#" class="notify">
+                  <i class="fa-solid fa-bell"></i>
+                  <span><i class="fa-solid fa-circle"></i></span>
+                </a>
+                <div href="#" class="profiles">
+                  <i class="fa-solid fa-user" style="cursor: pointer;"></i>
+                  <div class="childOfOptions profile hide">
+                    <div class="childProfile">
+                      <i class="fa-regular fa-user"></i>
+                      Profile
+                    </div>
+                    <div class="gear">
+                      <i class="fa-solid fa-gears"></i>
+                      Setting
+                    </div>
+                    <div class="Logout">
+                      <i class="fa-solid fa-arrow-right-from-bracket">
+                        
+                      </i>
+                      <a href="../index.html">Sign Out</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="fa-solid fa-ellipsis second3Dot hide"></div>
+              </div>
+            </div>
+  
+  
+          <hr>  
+          <div class="main-content">
+                    <div id="0" class="Dashboard">
+                        <!-- <div class="sidebar col-xl-3 col-md-1 "></div> -->
+                        <div class="page col-xl-9 col-md-11 col-sm-12 col-12">
+                            <!-- <div id="page__top"></div> -->
+                            <div id="page__body">
+                                <div class="section-body">
+                                    <div class="container-fluid">
+                                        
+                                        <div class="text col-lg-12">
+                                            <h4>Welcome Jason Porter!</h4>
+                                            <p>Measure How Fast You’re Growing Monthly Recurring Revenue.
+                                                <a href="">Learn More</a>
+                                            </p>
+                                        </div>
+                                        <div class="cards row">
+                                            <div class="card-1 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="/HTML/User.html">
+                                                        <i class=" icon fa-solid fa-users"></i>
+                                                        <span>User</span>
+                                                    </a>
+                
+                                                </div>
+                                            </div>
+                                            <div class="card-2 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="">
+                                                        <i class=" icon fa-solid fa-thumbs-up"></i>
+                                                        <span>Holidays</span>
+                                                    </a>
+                
+                                                </div>
+                                            </div>
+                                            <div class="card-3 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="">
+                                                        <i class=" icon fa-solid fa-calendar-days"></i>
+                                                        <span>Events</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-4 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="">
+                                                        <i class=" icon fa-solid fa-credit-card"></i>
+                                                        <span>Payroll </span>
+                                                    </a>
+                
+                                                </div>
+                                            </div>
+                                            <div class="card-5 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="">
+                                                        <i class=" icon fa-solid fa-calculator"></i>
+                                                        <span>Accounts</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="card-6 col-xl-2 col-md-4 col-6">
+                                                <div class="card__body">
+                                                    <a href="">
+                                                        <i class=" icon fa-solid fa-chart-column"></i>
+                                                        <span>Report</span>
+                                                    </a>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="section-body">
+                                    <div class="container-fluid">
+                                        <div class="cards row">
+                                            <div class="col-xl-4">
+                                                <div class="card__body1 height">
+                                                    <h5 class="title">Revenue</h5>
+                                                    <span>Measure How Fast You’re Growing Monthly Recurring Revenue.
+                                                        <a href="">Learn More</a>
+                                                    </span>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">
+                                                            <div class="clearfix">
+                                                                <div class="float-left"
+                                                                    style="padding-right: 35px; border-bottom: 2px solid red;">
+                                                                    <strong>35%</strong>
+                                                                </div>
+                                                                <div class="float-right">
+                                                                    <span>Design Team</span>
+                                                                </div>
+                                                            </div>
+                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="clearfix">
+                                                                <div class="float-left"
+                                                                    style="padding-right: 25px; border-bottom: 2px solid blue;">
+                                                                    <strong>25%</strong>
+                                                                </div>
+                                                                <div class="float-right">
+                                                                    <span>Developer Team</span>
+                                                                </div>
+                                                            </div>
+                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="clearfix">
+                                                                <div class="float-left"
+                                                                    style="padding-right: 15px; border-bottom: 2px solid rgb(41, 219, 5);">
+                                                                    <strong>15%</strong>
+                                                                </div>
+                                                                <div class="float-right">
+                                                                    <span>Marketing</span>
+                                                                </div>
+                                                            </div>
+                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="clearfix">
+                                                                <div class="float-left"
+                                                                    style="padding-right: 20px; border-bottom: 2px solid rgb(177, 6, 154);">
+                                                                    <strong>20%</strong>
+                                                                </div>
+                                                                <div class="float-right">
+                                                                    <span>Management</span>
+                                                                </div>
+                                                            </div>
+                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="clearfix">
+                                                                <div class="float-left"
+                                                                    style="padding-right: 11px; border-bottom: 2px solid rgb(241, 5, 241);">
+                                                                    <strong>11%</strong>
+                                                                </div>
+                                                                <div class="float-right">
+                                                                    <span>Other</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                
+                                                    <div class="evaluate" style="margin-top: 50px; ">
+                                                        <h6 class="card-title" style="font-size: 20px;">Overall Rating</h6>
+                                                        <span style="font-size: 30px;">5.0<span style="font-size: 14px;">
+                                                                <58%>
+                                                            </span></span>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star "
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                    </div>
+                                                    <hr style="background-color: red; height: 5px;">
+                                                    <hr style="background-color: green ;height: 5px;">
+                                                    <hr style="background-color: violet;height: 5px;">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4">
+                                                <div class="card__body1 height">
+                                                    <h5 class="title">Project Statistics</h5>
+                                                    <div class="row text-center">
+                                                        <div class="col-xl-4 col-md-4">
+                                                            <p>Total Project</p>
+                                                            <span>42</span>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-4"
+                                                            style="border-left: 1px solid rgb(180, 178, 178); border-right: 1px solid rgb(185, 183, 183);">
+                                                            <p>On Going</p>
+                                                            <span>23</span>
+                                                        </div>
+                                                        <div class="col-xl-4 col-md-4">
+                                                            <p>Pending</p>
+                                                            <span>8</span>
+                                                        </div>
+                                                    </div>
+                
+                                                    <div class="text-center-1">
+                                                        <table style="width: 100%;">
+                                                            <tbody></tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="clearfix">
+                                                                        <div class="float-left"
+                                                                            style="padding-right: 35px; border-bottom: 2px solid red;">
+                                                                            <strong>35%</strong>
+                                                                        </div>
+                                                                        <div class="float-right">
+                                                                            <span>Design Team</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="clearfix">
+                                                                        <div class="float-left"
+                                                                            style="padding-right: 25px; border-bottom: 2px solid blue;">
+                                                                            <strong>25%</strong>
+                                                                        </div>
+                                                                        <div class="float-right">
+                                                                            <span>Developer Team</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="clearfix">
+                                                                        <div class="float-left"
+                                                                            style="padding-right: 15px; border-bottom: 2px solid rgb(41, 219, 5);">
+                                                                            <strong>15%</strong>
+                                                                        </div>
+                                                                        <div class="float-right">
+                                                                            <span>Marketing</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="clearfix">
+                                                                        <div class="float-left"
+                                                                            style="padding-right: 20px; border-bottom: 2px solid rgb(177, 6, 154);">
+                                                                            <strong>20%</strong>
+                                                                        </div>
+                                                                        <div class="float-right">
+                                                                            <span>Management</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="clearfix">
+                                                                        <div class="float-left"
+                                                                            style="padding-right: 11px; border-bottom: 2px solid rgb(241, 5, 241);">
+                                                                            <strong>11%</strong>
+                                                                        </div>
+                                                                        <div class="float-right">
+                                                                            <span>Other</span>
+                                                                        </div>
+                                                                    </div>
+                
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                
+                                                    <div class="evaluate" style="margin-top: 40px; ">
+                                                        <h6 class="card-title" style="font-size: 20px;">Overall Rating</h6>
+                                                        <span style="font-size: 30px;">6.2<span style="font-size: 14px;">
+                                                                <68%>
+                                                            </span></span>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star "
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                                                        <i class="fa-solid fa-star"
+                                                            style="color: rgba(248, 248, 18, 0.616); font-size: 20px ;"></i>
+                
+                                                    </div>
+                                                    <hr style="background-color: red; height: 5px;">
+                                                    <hr style="background-color: green ;height: 5px;">
+                                                    <hr style="background-color: violet;height: 5px;">
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-xl-4 col-lg-12 col-md-12">
+                                                <div class="card__body1 ">
+                                                    <div class="row-1">
+                                                        <h5 class="title">Transaction History</h5>
+                                                        <div class="card-option">
+                                                            <!-- <a class="card-option-link" href=""> -->
+                                                            <i class=" card-option-link fa-solid fa-ellipsis-vertical"></i>
+                                                            <!-- </a> -->
+                                                            <div class="card-option-menu">
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    View Details
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-share-nodes"></i>
+                                                                    Share
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                                                    Download
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-regular fa-copy"></i>
+                                                                    Copy to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-folder"></i>
+                                                                    Move to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-pen-to-square"></i>
+                                                                    Rename
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                    Delete
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <table class=" table-2 " style="width: 100%;">
+                                                        <tbody>
+                                                            <tr class="table-row ">
+                                                                <td><i class="fa-solid fa-check"></i></td>
+                                                                <td>
+                                                                    <p class="edit">Payment from #1598</p>
+                                                                    <span>Feb 21, 2019, 3:30pm</span>
+                                                                </td>
+                                                                <td class="textalign">
+                                                                    <p class="edit">$300</p>
+                                                                    <span>Done</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="table-row ">
+                                                                <td><i class="fa-solid fa-truck-moving"></i></td>
+                                                                <td>
+                                                                    <p class="edit">Process delivery to #85236</p>
+                                                                    <span>March 14, 2019, 2:30pm</span>
+                                                                </td>
+                                                                <td class="textalign">
+                                                                    <p class="edit">$300</p>
+                                                                    <span>For pickup</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="table-row">
+                                                                <td><i class="fa-solid fa-angle-left"></i></td>
+                                                                <td>
+                                                                    <p class="edit">Process refund #4568</p>
+                                                                    <span>March 18, 2019, 6:30pm</span>
+                                                                </td>
+                                                                <td class="textalign">
+                                                                    <p class="edit">$300</p>
+                                                                    <span>Done</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="table-row">
+                                                                <td><i class="fa-brands fa-cc-visa"></i></td>
+                                                                <td>
+                                                                    <p class="edit">Payment failed from #32658</p>
+                                                                    <span>April 27, 2019, 3:48pm</span>
+                                                                </td>
+                                                                <td class="textalign">
+                                                                    <p class="edit">$300</p>
+                                                                    <span>Declined</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="table-row">
+                                                                <td><i class="fa-solid fa-angle-left"></i></td>
+                                                                <td>
+                                                                    <p class="edit">Process refund #4568</p>
+                                                                    <span>March 18, 2019, 6:30pm</span>
+                                                                </td>
+                                                                <td class="textalign">
+                                                                    <p class="edit">$300</p>
+                                                                    <span>Done</span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="page__footer">
+                                <div class="section-body">
+                                    <footer class="footer"></footer>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="1" class="Department hide">
+                        <div class="page col-xl-9 col-md-11 col-sm-12 col-12">
+                            <div id="page__body">
+                                <!-- header-body -->
+                                <div class="section-body">
+                                    <div class="container-fluid">
+                                        <div class="d-flex">
+                                            <ul class="nav">
+                                                <li class="nav-item">
+                                                    <a href="" class="nav-link">List View</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="" class="nav-link">Grid View</a>
+                                                </li>
+                                            </ul>
+                                            <div class="header-action">
+                                                <button type="button" class="btn">
+                                                    <i class="fa-regular fa-plus"></i>
+                                                    Add
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer-body -->
+                                <div class="section-body">
+                                    <div class="container-fluid">
+                                        <div class="tab-content">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h3 class="card-title">Departments List</h3>
+                                                    <div class="card-options">
+                                                        <form action="">
+                                                            <div class="form-group" style="display: flex;">
+                                                                <input type="text" class="form-control"
+                                                                    placeholder="Search-something">
+                                                                <span class="input-group-btn">
+                                                                    <button class="btn">
+                                                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                                <div class="card-body">
+                                                    <div class="table-responsive">
+                                                        <table class="table">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>#</th>
+                                                                    <th>Department Name</th>
+                                                                    <th>Department Head</th>
+                                                                    <th>Total Employee</th>
+                                                                    <th>Action</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>01</td>
+                                                                    <td>Web Development</td>
+                                                                    <td>John Smith</td>
+                                                                    <td>102</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>02</td>
+                                                                    <td>Marketing</td>
+                                                                    <td>Maryam Amiri </td>
+                                                                    <td>13</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>03</td>
+                                                                    <td>App Development</td>
+                                                                    <td>Frank Camly</td>
+                                                                    <td>21</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>04</td>
+                                                                    <td>Support</td>
+                                                                    <td>Gary Camara</td>
+                                                                    <td>84</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>05</td>
+                                                                    <td>Accounts</td>
+                                                                    <td>Fidel Tonn</td>
+                                                                    <td>11</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>06</td>
+                                                                    <td>PHP Open Source</td>
+                                                                    <td>Maryam Amiri</td>
+                                                                    <td>37</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>07</td>
+                                                                    <td>Design and Printing</td>
+                                                                    <td>Maryam Amiri</td>
+                                                                    <td>17</td>
+                                                                    <td>
+                                                                        <button type="button" class="btn"
+                                                                            title="edit">
+                                                                            <i
+                                                                                class="fa-solid fa-pen-to-square"></i>
+                                                                        </button>
+                                                                        <button type="button" class="btn"
+                                                                            title="delete">
+                                                                            <i class="fa-solid fa-trash-can"></i>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="2" class="Setting hide">
+                        <div class="page col-xl-9 col-md-11 col-sm-12 col-12">
+                            <div id="page__body">
+                                <div class="container-fluid">
+                                    <div class="row ">
+                                        <!-- clearfix -->
+                                        <div class="col-lg-4 col-md-12">
+                                            <ul class="list_group">
+                                                <li class="list_group_item item1">
+                                                    <div class="media">
+                                                        <img src="./assest/img/avatar4.jpg" alt="fake_url">
+                                                        <div class="media_body">
+                                                            <h5>Deborah Cox</h5>
+                                                            <p class="text_muted">Webdeveloper</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list_group_item">
+                                                    <p class="text_muted">Title: </p>
+                                                    <p class="text_muted2">FaceBook Inc.</p>
+                                                </li>
+                                                <li class="list_group_item">
+                                                    <p class="text_muted">Address: </p>
+                                                    <p class="text_muted2">44 Shirley Ave. IL 60185</p>
+                                                </li>
+                                                <li class="list_group_item">
+                                                    <p class="text_muted">Title: </p>
+                                                    <p class="text_muted2">FaceBook Inc.</p>
+                                                </li>
+                                                <li class="list_group_item">
+                                                    <p class="text_muted">Date:  </p>
+                                                    <p class="text_muted2">07 Feb 2019</p>
+                                                </li>
+                                                <li class="list_group_item">
+                                                    <div>In Progress</div> 
+                                                    <div class="progress">
+                                                        <div class="progress_bar"></div>
+                                                    </div>
+                                                </li>
+                                                <li class="list_group_item item2">
+                                                    Notifications 
+                                                    <div>
+                                                        <input type="checkbox" name="" id="">
+                                                    </div>
+                                                </li>
+                                                <li class="list_group_item item2">
+                                                    Messages
+                                                    <div>
+                                                        <input type="checkbox" name="" id="">
+                                                    </div>
+                                                </li>
+                                                <li class="list_group_item item2">
+                                                    Message email 
+                                                    <div>
+                                                        <input type="checkbox" name="" id="">
+                                                    </div>
+                                                </li>
+                                                <li class="list_group_item item2">
+                                                    Applicant email 
+                                                    <div>
+                                                        <input type="checkbox" name="" id="">
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-8 col-md-12">
+                                            <div class="card">
+                                                <div class="card_header">
+                                                    <h3 class="card-title">General Settings</h3>
+                                                    <div class="card-options">
+                                                        <i class=" delete fa-solid fa-x"></i>
+                                                        <div class="item-option">
+                                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                            <div class="dropdown-menu">
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    View Details
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-share-nodes"></i>
+                                                                    Share
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                                                    Download
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-regular fa-copy"></i>
+                                                                    Copy to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-folder"></i>
+                                                                    Move to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-pen-to-square"></i>
+                                                                    Rename
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                    Delete
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card_body">
+                                                    <div class="row clearfix" >
+                                                        <div class="height col-lg-6 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height  col-lg-6 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control" placeholder="First Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height  col-lg-6 col-md-12">
+                                                            <div class="form-group">
+                                                                <select name="" id="" class="form-control">
+                                                                    <option value="">-- Select Gander --</option>
+                                                                    <option value="">Male</option>
+                                                                    <option value="">Female</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" height  col-lg-6 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="date" style="font-size: 14px;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height  col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <select name="" id="" class="form-control">
+                                                                    <option value="">-- Select Country --</option>
+                                                                    <option value="">Afghanistan</option>
+                                                                    <option value="">Åland Islands</option>
+                                                                    <option value="">Angola</option>
+                                                                    <option value="">Australia</option>
+                                                                    <option value="">Argentina</option>
+                                                                    <option value="">Brazil</option>
+                                                                    <option value="">Canada</option>
+                                                                    <option value="">Chile</option>
+                                                                    <option value="">China</option>
+                                                                    <option value="">France</option>
+                                                                    <option value="">Greenland</option>
+                                                                    <option value="">Hong Kong</option>
+                                                                    <option value="">India</option>
+                                                                    <option value="">Iceland</option>
+                                                                    <option value="">Italy</option>
+                                                                    <option value="">New Zealand</option>
+                                                                    <option value="">Singapore</option>
+                                                                    <option value="">Thailand</option>
+                                                                    <option value="">Viet Nam</option>
+                                                                    <option value="">United States</option>
+                                                                    <option value="">Ukraine</option>
+                                                                    <option value="">Russian Federation</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="height  col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control" placeholder="State/Province">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control" placeholder="City">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea type="text" name="" id="" rows="4" class="form-control" placeholder="Address"></textarea>
+                                                            </div>
+                                                            <button type="button" class="btn btn-round btn-primary">Update</button>
+                                                            <button type="button" class="btn btn-round btn-default">Cancel</button>
+                                                        </div>
+                                                        
+                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card_header">
+                                                    <h3 class="card-title">Account Data</h3>
+                                                    <div class="card-options">
+                                                        <i class=" delete fa-solid fa-x"></i>
+                                                        <div class="item-option">
+                                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                                            <div class="dropdown-menu">
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-eye"></i>
+                                                                    View Details
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-share-nodes"></i>
+                                                                    Share
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                                                    Download
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-regular fa-copy"></i>
+                                                                    Copy to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-folder"></i>
+                                                                    Move to
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-pen-to-square"></i>
+                                                                    Rename
+                                                                </a>
+                                                                <a class="item" href="">
+                                                                    <i class="fa-solid fa-trash"></i>
+                                                                    Delete
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card_body">
+                                                    <div class="row clearfix">
+                                                        <div class="height col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control"  disabled  placeholder="Username" value="Nhibeo">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="email" name="" id="" class="form-control"   placeholder="Email" value="ntt1804@gmail.com">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height col-lg-4 col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" name="" id="" class="form-control"   placeholder="Phone Number">
+                                                            </div>
+                                                        </div>
+                                                        <div class="height2 col-lg-12 col-md-12 ">
+                                                            <hr>
+                                                            <h6>Change Password</h6>
+                                                            <div class="form-group">
+                                                                <input type="password" name="" id="" class="form-control"   placeholder="Current Password">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" name="" id="" class="form-control"   placeholder="New Password">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="password" name="" id="" class="form-control"   placeholder="Confirm  Password">
+                                                            </div>
+                                                            <button  type="button" class="btn btn-round btn-primary">Update</button>
+                                                            <button type="button" class="btn btn-round btn-default">Cancel</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="3" class="Users hide">
+                        <div id="page__header"></div>
+                        <div id="page__body"></div>
+                      <!--body -->
+                      <div class="section-body">
+                        <div class="container-fluid">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <ul class="nav nav-tabs page-header-tab">
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link active"
+                                  id="user-tab"
+                                  data-toggle="tab"
+                                  hre="#user-list"
+                                  >List</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" id="user-tab" data-toggle="tab" hre="#user-add"
+                                  >Add New</a
+                                >
+                              </li>
+                            </ul>
+                            <div class="header-action">
+                              <button type="button" class="btn btn-primary"><i class="fa-regular fa-plus mr-2"></i>Add
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="section-body mt-3">
+                        <div class="container-fluid">
+                          <div class="tab-content mt-3">
+                            <div class="tab-pane" id="user-list" role="tabpanel">
+                              <div class="card">
+                                <div class="card-header">
+                                  <h3 class="card-title">User List</h3>
+                                  <div class="card-options">
+                                    <form>
+                                      <div class="input-group">
+                                        <input
+                                          type="text"
+                                          class="form-control form-control-sm"
+                                          placeholder="Search something..."
+                                          name="s"
+                                        /><span class="input-group-btn ml-2"
+                                          ><button class="btn btn-sm btn-default" type="button">
+                                            <i class="fas fa-search"></i></button
+                                        ></span>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                                <div class="card-body">
+                                  <div class="table-responsive">
+                                    <table
+                                      class="table table-striped table-hover table-vcenter text-nowrap mb-0"
+                                    >
+                                      <thead>
+                                        <tr>
+                                          <th class="w60">Name</th>
+                                          <th></th>
+                                          <th></th>
+                                          <th>Created Date</th>
+                                          <th>Role</th>
+                                          <th class="w100">Action</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td class="width45">
+                                            <span
+                                              class="../avatar avatar-blue"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              data-original-title="Avatar Name"
+                                              >MN</span
+                                            >
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Marshall Nichols</h6>
+                                            <span>marshall-n@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-danger">Super Admin</span></td>
+                                          <td>24 Jun, 2015</td>
+                                          <td>CEO and Founder</td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="../assets/imgs/avatar1.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Susie Willis</h6>
+                                            <span>sussie-w@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-info">Admin</span></td>
+                                          <td>28 Jun, 2015</td>
+                                          <td>Team Lead</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="../assets/imgs/avatar2.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Debra Stewart</h6>
+                                            <span>debra@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-default">Employee</span></td>
+                                          <td>21 July, 2015</td>
+                                          <td>Team Lead</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <span
+                                              class="avatar avatar-green"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              data-original-title="Avatar Name"
+                                              >EG</span
+                                            >
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Erin Gonzales</h6>
+                                            <span>Erinonzales@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-default">Employee</span></td>
+                                          <td>21 July, 2015</td>
+                                          <td>Web Developer</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button>
+                                              <button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="../assets/imgs/avatar3.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Susie Willis</h6>
+                                            <span>sussie-w@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-info">Admin</span></td>
+                                          <td>28 Jun, 2015</td>
+                                          <td>Team Lead</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="../assets/imgs/avatar4.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Debra Stewart</h6>
+                                            <span>debra@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-default">Employee</span></td>
+                                          <td>21 July, 2015</td>
+                                          <td>Team Lead</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="../assets/imgs/avatar5.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Erin Gonzales</h6>
+                                            <span>Erinonzales@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-default">Employee</span></td>
+                                          <td>21 July, 2016</td>
+                                          <td>Web Developer</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <img
+                                              src="assets/imgs/avatar6.jpg"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              alt="Avatar"
+                                              class="avatar"
+                                              data-original-title="Avatar Name"
+                                            />
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Ava Alexander</h6>
+                                            <span>alexander@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-success">HR Admin</span></td>
+                                          <td>21 July, 2016</td>
+                                          <td>HR</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <span
+                                              class="avatar avatar-pink"
+                                              data-toggle="tooltip"
+                                              data-placement="top"
+                                              data-original-title="Avatar Name"
+                                              >AA</span
+                                            >
+                                          </td>
+                                          <td>
+                                            <h6 class="mb-0">Ava Alexander</h6>
+                                            <span>alexander@gmail.com</span>
+                                          </td>
+                                          <td><span class="tag tag-success">HR Admin</span></td>
+                                          <td>21 July, 2019</td>
+                                          <td>HR</td>
+                                          <td>
+                                            <button type="button" class="btn btn-icon" title="Edit">
+                                              <i class="fa fa-edit"></i></button
+                                            ><button
+                                              type="button"
+                                              class="btn btn-icon js-sweetalert"
+                                              title="Delete"
+                                              data-type="confirm"
+                                            >
+                                              <i class="fa fa-trash-o text-danger"></i>
+                                            </button>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane hide" id="user-add" role="tabpanel">
+                              <div class="card">
+                                <div class="card-body">
+                                  <div class="row clearfix">
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Employee ID *"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="First Name *"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Last Name"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Email ID *"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Mobile No"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <select class="form-control show-tick">
+                                          <option>Select Role Type</option>
+                                          <option>Super Admin</option>
+                                          <option>Admin</option>
+                                          <option>Employee</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Username *"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Password"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12">
+                                      <div class="form-group">
+                                        <input
+                                          type="text"
+                                          class="form-control"
+                                          placeholder="Confirm Password"
+                                        />
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <hr class="mt-4" />
+                                      <h6>Module Permission</h6>
+                                      <div class="table-responsive">
+                                        <table class="table table-striped">
+                                          <thead>
+                                            <tr>
+                                              <th></th>
+                                              <th>Read</th>
+                                              <th>Write</th>
+                                              <th>Delete</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <tr>
+                                              <td>Super Admin</td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td>Admin</td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td>Employee</td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                            </tr>
+                                            <tr>
+                                              <td>HR Admin</td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                              <td>
+                                                <label class="custom-control custom-checkbox"
+                                                  ><input
+                                                    type="checkbox"
+                                                    class="custom-control-input"
+                                                    name="example-checkbox1"
+                                                    value="option1"
+                                                    checked=""
+                                                  /><span class="custom-control-label"
+                                                    >&nbsp;</span
+                                                  ></label
+                                                >
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                      <button type="button" class="btn btn-primary">Add</button
+                                      ><button
+                                        type="button"
+                                        class="btn btn-secondary"
+                                        data-dismiss="modal"
+                                      >
+                                        CLOSE
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="4" class="Clients hide">
+                      <div class="form-of-clients container">
+                          <form class="form-of-clients row">
+                              <div class="col-lg-4 col-sm-6" id="ClientName">
+                                  <input type="text" placeholder="Client Name">
+                              </div>
+                              <div class="col-lg-4 col-sm-6" id="ProjectOfClients">
+                                  <input type="text" placeholder="Project">
+                              </div>
+                              <div class="col-lg-4" id="search">
+                                  <button id="search">
+                                      Search
+                                  </button>
+                              </div>
+                          </form>
+                      </div>
+                      <div class="container mainOfClients" style="padding : 0 ;">
+                          <div class="row">
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <div class="ribbonBox">
+                                          USA
+                                      </div>
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <div class="ribbonBox">
+                                          USA
+                                      </div>
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <div class="ribbonBox">
+                                          USA
+                                      </div>
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <div class="ribbonBox">
+                                          USA
+                                      </div>
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-lg-3 person1">
+                                  <div class="bigElem">
+                                      <img src="../assets/imgs/Poster-sized_portrait_of_Barack_Obama.jpg" alt="">
+                                      <h6>David Wallace</h6>
+                                      <span>email123@gmail.com</span>
+                                      <div class="icon2">
+                                          <i class="fa-brands fa-facebook"></i>
+                                          <i class="fa-brands fa-twitter"></i>
+                                          <i class="fa-brands fa-instagram"></i>
+                                      </div>
+                                      <div>
+                                          <button>View Profile</button>
+                                          <button>Message</button>
+                                      </div>
+                                      <div class="number1">
+                                          <div>
+                                              <label for="">Project</label>
+                                              <h6>12</h6>
+                                          </div>
+                                          <div>
+                                              <label for="">Deal</label>
+                                              <h6>$7000</h6>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                    <script>
+                        jQuery(document).ready(function () {
+                            jQuery(".card-option").click(function () {
+                                jQuery(this).find(".card-option-menu").slideToggle("500");
+                            });
+                        });
+                    </script>          
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+<script src="../assets/js/index.js"></script>
+</body>
+
+</html>
